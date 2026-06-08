@@ -1,0 +1,75 @@
+:root {
+  --paper: #ffffff;
+  --paper-soft: #ffffff;
+  --ink: #1f1f1f;
+  --muted: #6f6a63;
+  --line: rgba(31, 31, 31, 0.1);
+  --gold: #af9063;
+  --gold-dark: #8f734d;
+  --shadow: 0 16px 38px rgba(53, 47, 39, 0.09);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Noto Serif SC", "Songti SC", "Microsoft YaHei", serif;
+  letter-spacing: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: var(--paper);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-shell {
+  width: min(100%, 480px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 84px 16px 28px;
+}
+
+.empty-state {
+  display: grid;
+  min-height: 60vh;
+  place-items: center;
+  text-align: center;
+}
+
+.empty-state h1 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--muted);
+}

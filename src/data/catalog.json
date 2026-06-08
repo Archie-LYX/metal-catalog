@@ -1,0 +1,163 @@
+{
+  "categories": [
+    {
+      "id": "gate",
+      "number": "01",
+      "title": "大门门楼",
+      "enTitle": "GATE & ENTRANCE",
+      "image": "./src/assets/placeholders/category-gate.jpg",
+      "description": "多种风格选择，匹配不同庭院美学",
+      "series": [
+        { "id": "gate-modern", "number": "01", "title": "现代极简", "subtitle": "简洁线条 · 纯粹之美" },
+        { "id": "gate-luxury", "number": "02", "title": "轻奢艺术", "subtitle": "精致细节 · 轻奢质感" },
+        { "id": "gate-chinese", "number": "03", "title": "新中式", "subtitle": "东方意境 · 庭院雅韵" }
+      ]
+    },
+    {
+      "id": "fence",
+      "number": "02",
+      "title": "围栏系列",
+      "enTitle": "FENCE SERIES",
+      "image": "./src/assets/placeholders/category-fence.jpg",
+      "description": "延展庭院边界，保持整体秩序感",
+      "series": [
+        { "id": "fence-modern", "number": "01", "title": "现代极简", "subtitle": "规整比例 · 横向比较清晰" },
+        { "id": "fence-luxury", "number": "02", "title": "轻奢艺术", "subtitle": "金属细节 · 克制装饰" },
+        { "id": "fence-chinese", "number": "03", "title": "新中式", "subtitle": "格栅韵律 · 东方秩序" }
+      ]
+    },
+    {
+      "id": "railing",
+      "number": "03",
+      "title": "护栏系列",
+      "enTitle": "RAILING SERIES",
+      "image": "./src/assets/placeholders/category-railing.jpg",
+      "description": "适配阳台、露台与庭院空间",
+      "series": [
+        { "id": "railing-modern", "number": "01", "title": "现代极简", "subtitle": "轻薄边框 · 通透视觉" },
+        { "id": "railing-luxury", "number": "02", "title": "轻奢艺术", "subtitle": "细节点缀 · 高级立面" },
+        { "id": "railing-chinese", "number": "03", "title": "新中式", "subtitle": "传统元素 · 现代表达" }
+      ]
+    },
+    {
+      "id": "gazebo",
+      "number": "04",
+      "title": "凉亭廊架",
+      "enTitle": "GAZEBO & PERGOLA",
+      "image": "./src/assets/placeholders/category-gazebo.jpg",
+      "description": "营造庭院休憩与遮蔽空间",
+      "series": [
+        { "id": "gazebo-pavilion", "number": "01", "title": "凉亭系列", "subtitle": "庭院休憩 · 稳重大气" },
+        { "id": "gazebo-pergola", "number": "02", "title": "廊架系列", "subtitle": "线性延展 · 空间过渡" },
+        { "id": "gazebo-carport", "number": "03", "title": "车棚系列", "subtitle": "实用遮蔽 · 简洁耐看" }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "gm-01",
+      "seriesId": "gate-modern",
+      "code": "GM-01",
+      "name": "现代极简庭院大门",
+      "short": "竖向格栅 · 极简线条",
+      "tags": ["全部", "竖向格栅", "门楼一体", "双开门"],
+      "mainImage": "./src/assets/placeholders/product-main.jpg",
+      "caseImages": [
+        "./src/assets/placeholders/case-01.jpg",
+        "./src/assets/placeholders/case-02.jpg",
+        "./src/assets/placeholders/case-03.jpg",
+        "./src/assets/placeholders/case-04.jpg"
+      ],
+      "structureImage": "./src/assets/placeholders/structure.jpg",
+      "material": "铝合金",
+      "color": "多种颜色可定制",
+      "craft": "氟碳喷涂",
+      "opening": "双开门",
+      "custom": "支持尺寸 / 颜色 / 款式定制"
+    },
+    {
+      "id": "gm-02",
+      "seriesId": "gate-modern",
+      "code": "GM-02",
+      "name": "横向格栅庭院大门",
+      "short": "横向格栅 · 隐形灯带",
+      "tags": ["全部", "横向格栅", "双开门"],
+      "mainImage": "./src/assets/placeholders/product-main.jpg",
+      "caseImages": [
+        "./src/assets/placeholders/case-01.jpg",
+        "./src/assets/placeholders/case-02.jpg",
+        "./src/assets/placeholders/case-03.jpg",
+        "./src/assets/placeholders/case-04.jpg"
+      ],
+      "structureImage": "./src/assets/placeholders/structure.jpg",
+      "material": "铝合金",
+      "color": "黑钛灰 / 香槟金可定制",
+      "craft": "静电粉末喷涂",
+      "opening": "双开门",
+      "custom": "支持尺寸 / 颜色 / 款式定制"
+    },
+    {
+      "id": "gm-03",
+      "seriesId": "gate-modern",
+      "code": "GM-03",
+      "name": "通透格栅庭院大门",
+      "short": "竖向格栅 · 通透设计",
+      "tags": ["全部", "竖向格栅", "极窄边框"],
+      "mainImage": "./src/assets/placeholders/product-main.jpg",
+      "caseImages": [
+        "./src/assets/placeholders/case-01.jpg",
+        "./src/assets/placeholders/case-02.jpg",
+        "./src/assets/placeholders/case-03.jpg",
+        "./src/assets/placeholders/case-04.jpg"
+      ],
+      "structureImage": "./src/assets/placeholders/structure.jpg",
+      "material": "铝合金",
+      "color": "多种颜色可定制",
+      "craft": "氟碳喷涂",
+      "opening": "双开门",
+      "custom": "支持尺寸 / 颜色 / 款式定制"
+    },
+    {
+      "id": "gm-04",
+      "seriesId": "gate-luxury",
+      "code": "GM-04",
+      "name": "轻奢金属庭院大门",
+      "short": "金属细节 · 门楼一体",
+      "tags": ["全部", "门楼一体", "双开门"],
+      "mainImage": "./src/assets/placeholders/product-main.jpg",
+      "caseImages": [
+        "./src/assets/placeholders/case-01.jpg",
+        "./src/assets/placeholders/case-02.jpg",
+        "./src/assets/placeholders/case-03.jpg",
+        "./src/assets/placeholders/case-04.jpg"
+      ],
+      "structureImage": "./src/assets/placeholders/structure.jpg",
+      "material": "铝合金",
+      "color": "深灰 / 金色点缀可定制",
+      "craft": "氟碳喷涂",
+      "opening": "双开门",
+      "custom": "支持尺寸 / 颜色 / 款式定制"
+    },
+    {
+      "id": "gm-05",
+      "seriesId": "gate-chinese",
+      "code": "GM-05",
+      "name": "新中式庭院大门",
+      "short": "东方格栅 · 对称美学",
+      "tags": ["全部", "新中式元素", "双开门"],
+      "mainImage": "./src/assets/placeholders/product-main.jpg",
+      "caseImages": [
+        "./src/assets/placeholders/case-01.jpg",
+        "./src/assets/placeholders/case-02.jpg",
+        "./src/assets/placeholders/case-03.jpg",
+        "./src/assets/placeholders/case-04.jpg"
+      ],
+      "structureImage": "./src/assets/placeholders/structure.jpg",
+      "material": "铝合金",
+      "color": "黑钛灰 / 古铜色可定制",
+      "craft": "氟碳喷涂",
+      "opening": "双开门",
+      "custom": "支持尺寸 / 颜色 / 款式定制"
+    }
+  ]
+}
