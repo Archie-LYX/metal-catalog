@@ -122,11 +122,10 @@ function getRoute() {
 
 function getTitle(route, catalog) {
   if (route.page === 'category') {
-    return findCategory(catalog, route.params.categoryId)?.title || '';
+    return '锋锐金属';
   }
   if (route.page === 'products') {
-    const category = findCategory(catalog, route.params.categoryId);
-    return category?.series.find((series) => series.id === route.params.styleId)?.title || '';
+    return '锋锐金属';
   }
   if (route.page === 'detail') return '产品详情';
   return '';
