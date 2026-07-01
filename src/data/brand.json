@@ -1,11 +1,11 @@
 {
-  "logoText": "LOGO",
-  "logo": "./assets/images/brand/logo.webp",
-  "shareCard": "./assets/images/brand/share-card.jpg",
-  "favicon": "./assets/images/brand/favicon.png",
+  "logoText": "锋锐金属",
+  "logo": "./assets/images/brand/logo.svg",
+  "shareCard": "./assets/images/hero/catalog-cover.webp",
+  "favicon": "./assets/images/brand/logo.svg",
   "catalogCover": "./assets/images/hero/catalog-cover.webp",
-  "companyName": "企业名称占位",
-  "englishName": "BRAND NAME PLACEHOLDER",
+  "companyName": "锋锐金属制品有限公司",
+  "englishName": "FENGRUI METAL PRODUCTS CO., LTD.",
   "slogan": "专注庭院金属定制 · 打造品质生活空间",
-  "subSlogan": "统一产品视觉 · 适合微信分享选款"
+  "subSlogan": "庭院门 · 围栏 · 护栏 · 凉亭廊架｜一站式浏览选型"
 }
