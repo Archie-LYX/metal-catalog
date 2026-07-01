@@ -14,7 +14,9 @@
 }
 
 html {
+  width: 100%;
   min-height: 100%;
+  overflow-x: hidden;
   background: var(--paper);
   color: var(--ink);
   font-family: "Noto Serif SC", "Songti SC", "Microsoft YaHei", serif;
@@ -23,8 +25,10 @@ html {
 }
 
 body {
+  width: 100%;
   min-height: 100%;
   margin: 0;
+  overflow-x: hidden;
   background: var(--paper);
 }
 
@@ -48,13 +52,20 @@ img {
 #app {
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .app-shell {
-  width: min(100%, 480px);
+  width: 100%;
+  max-width: 480px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 84px 16px 28px;
+  padding:
+    calc(68px + env(safe-area-inset-top))
+    max(16px, env(safe-area-inset-right))
+    calc(28px + env(safe-area-inset-bottom))
+    max(16px, env(safe-area-inset-left));
+  overflow-x: hidden;
 }
 
 .empty-state {

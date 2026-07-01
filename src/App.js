@@ -7,7 +7,6 @@ import { ProductDetailPage } from './pages/ProductDetailPage.js';
 
 export function App(root, brand, rawCatalog) {
   const catalog = normalizeCatalog(rawCatalog);
-  let menuOpen = false;
 
   function start() {
     window.addEventListener('hashchange', render);
@@ -21,51 +20,51 @@ export function App(root, brand, rawCatalog) {
 
   function back() {
     const route = getRoute();
-    if (route.page === 'detail') navigate(`#/series/${route.params.seriesId}`);
-    else if (route.page === 'products') navigate(`#/category/${getCategoryBySeries(route.params.seriesId)?.id || 'gate'}`);
-    else if (route.page === 'category') navigate('#/');
-    else navigate('#/');
-  }
-
-  function toggleMenu(next) {
-    menuOpen = typeof next === 'boolean' ? next : !menuOpen;
-    render();
-  }
-
-  function getCategoryBySeries(seriesId) {
-    return catalog.categories.find((category) => category.series.some((series) => series.id === seriesId));
+    if (route.page === 'detail') {
+      const product = findProduct(catalog, route.params.productId);
+      navigate(product ? `#/series/${product.category}/${product.style}` : '#/');
+    } else if (route.page === 'products') {
+      navigate(`#/category/${route.params.categoryId}`);
+    } else {
+      navigate('#/');
+    }
   }
 
   function render() {
     const route = getRoute();
+    const pageTitle = getTitle(route, catalog);
     const chrome = TopBar({
-      title: getTitle(route, catalog),
-      showBack: route.page !== 'home',
-      onBack: back,
-      onMenu: () => toggleMenu(true)
+      title: pageTitle,
+      showBack: route.page !== 'home'
     });
 
     let page = '';
     if (route.page === 'category') {
-      const category = catalog.categories.find((item) => item.id === route.params.categoryId) || catalog.categories[0];
-      page = SecondCategoryPage({ category, navigate });
+      const category = findCategory(catalog, route.params.categoryId) || catalog.categories[0];
+      page = SecondCategoryPage({ category });
     } else if (route.page === 'products') {
-      const category = getCategoryBySeries(route.params.seriesId) || catalog.categories[0];
-      const series = category.series.find((item) => item.id === route.params.seriesId) || category.series[0];
-      const products = catalog.products.filter((product) => product.seriesId === series.id);
-      page = ProductListPage({ category, series, products, navigate });
+      const category = findCategory(catalog, route.params.categoryId) || catalog.categories[0];
+      const series = category.series.find((item) => item.id === route.params.styleId) || category.series[0];
+      const seriesProducts = catalog.products.filter(
+        (product) => product.category === category.id && product.style === series.id
+      );
+      const selectedGateType = category.id === 'gates' ? route.params.gateType : '全部';
+      const products = selectedGateType === '全部'
+        ? seriesProducts
+        : seriesProducts.filter((product) => product.gateType === selectedGateType);
+      page = ProductListPage({ category, series, products, selectedGateType });
     } else if (route.page === 'detail') {
-      const product = catalog.products.find((item) => item.id === route.params.productId) || catalog.products[0];
-      const category = getCategoryBySeries(product.seriesId) || catalog.categories[0];
+      const product = findProduct(catalog, route.params.productId) || catalog.products[0];
+      const category = findCategory(catalog, product.category) || catalog.categories[0];
       page = ProductDetailPage({ product, category });
     } else {
-      page = HomePage({ brand, categories: catalog.categories, navigate });
+      page = HomePage({ brand, categories: catalog.categories });
     }
 
     root.innerHTML = `
       ${chrome}
-      <main class="app-shell">${page}</main>
-      ${CatalogMenu({ brand, categories: catalog.categories, open: menuOpen })}
+      <main class="app-shell ${route.page === 'detail' ? 'detail-shell' : ''}">${page}</main>
+      ${CatalogMenu({ brand, categories: catalog.categories })}
     `;
 
     bindActions();
@@ -79,11 +78,18 @@ export function App(root, brand, rawCatalog) {
       element.addEventListener('click', back);
     });
     root.querySelectorAll('[data-menu-open]').forEach((element) => {
-      element.addEventListener('click', () => toggleMenu(true));
+      element.addEventListener('click', () => toggleLayer('.menu-layer', true));
     });
     root.querySelectorAll('[data-menu-close]').forEach((element) => {
-      element.addEventListener('click', () => toggleMenu(false));
+      element.addEventListener('click', () => toggleLayer('.menu-layer', false));
     });
+  }
+
+  function toggleLayer(selector, open) {
+    const layer = root.querySelector(selector);
+    if (!layer) return;
+    layer.classList.toggle('is-open', open);
+    layer.setAttribute('aria-hidden', open ? 'false' : 'true');
   }
 
   return { start };
@@ -91,61 +97,91 @@ export function App(root, brand, rawCatalog) {
 
 function getRoute() {
   const hash = window.location.hash || '#/';
-  const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+  const [path, query = ''] = hash.split('?');
+  const queryParams = new URLSearchParams(query);
+  const parts = path.replace(/^#\/?/, '').split('/').filter(Boolean);
 
-  if (parts[0] === 'category' && parts[1]) return { page: 'category', params: { categoryId: parts[1] } };
-  if (parts[0] === 'series' && parts[1]) return { page: 'products', params: { seriesId: parts[1] } };
-  if (parts[0] === 'product' && parts[1]) return { page: 'detail', params: { productId: parts[1] } };
+  if (parts[0] === 'category' && parts[1]) {
+    return { page: 'category', params: { categoryId: parts[1] } };
+  }
+  if (parts[0] === 'series' && parts[1] && parts[2]) {
+    return {
+      page: 'products',
+      params: {
+        categoryId: parts[1],
+        styleId: parts[2],
+        gateType: queryParams.get('gateType') || '全部'
+      }
+    };
+  }
+  if (parts[0] === 'product' && parts[1]) {
+    return { page: 'detail', params: { productId: parts[1] } };
+  }
   return { page: 'home', params: {} };
 }
 
 function getTitle(route, catalog) {
-  if (route.page === 'category') return catalog.categories.find((item) => item.id === route.params.categoryId)?.title || '';
-  if (route.page === 'products') {
-    return catalog.categories.flatMap((category) => category.series).find((series) => series.id === route.params.seriesId)?.title || '';
+  if (route.page === 'category') {
+    return findCategory(catalog, route.params.categoryId)?.title || '';
   }
-  if (route.page === 'detail') return '';
+  if (route.page === 'products') {
+    const category = findCategory(catalog, route.params.categoryId);
+    return category?.series.find((series) => series.id === route.params.styleId)?.title || '';
+  }
+  if (route.page === 'detail') return '产品详情';
   return '';
 }
 
 function normalizeCatalog(catalog) {
-  const products = [...catalog.products];
-  const existingSeries = new Set(products.map((product) => product.seriesId));
-  const fallbackCodes = ['A', 'B', 'C', 'D'];
+  const productPlaceholder = './assets/images/placeholders/product-placeholder.webp';
 
-  catalog.categories.forEach((category) => {
-    category.series.forEach((series) => {
-      if (existingSeries.has(series.id)) return;
-      fallbackCodes.forEach((suffix, index) => {
-        products.push(createProduct(category, series, suffix, index + 1));
-      });
-    });
+  const products = catalog.products.map((product) => {
+    const id = product.id.toUpperCase();
+    const baseAssetRoot = `./assets/images/products/${product.category}/${product.style}`;
+    const assetRoot = product.category === 'gates'
+      ? `${baseAssetRoot}/${getGateTypeFolder(product.gateType)}/${id}`
+      : `${baseAssetRoot}/${id}`;
+    return {
+      ...product,
+      id,
+      code: id,
+      heroImage: `${assetRoot}/hero.webp`,
+      cardImage: product.cardImage || `${assetRoot}/card.webp`,
+      caseImages: [1, 2, 3, 4].map((number) => `${assetRoot}/case-0${number}.webp`),
+      structureImage: `${assetRoot}/structure.webp`
+    };
   });
 
-  return { ...catalog, products };
+  const categories = catalog.categories.map((category) => {
+    const series = category.series.map((item) => ({
+      ...item,
+      image: item.image || productPlaceholder
+    }));
+
+    return {
+      ...category,
+      image: category.image || productPlaceholder,
+      series
+    };
+  });
+
+  return { categories, products };
 }
 
-function createProduct(category, series, suffix, number) {
-  const prefix = category.id.slice(0, 2).toUpperCase();
-  return {
-    id: `${series.id}-${suffix.toLowerCase()}`,
-    seriesId: series.id,
-    code: `${prefix}-${String(number).padStart(2, '0')}`,
-    name: `${series.title}${category.title}`,
-    short: `${series.subtitle}`,
-    tags: ['全部', '统一机位', '横向比较'],
-    mainImage: './src/assets/placeholders/product-main.jpg',
-    caseImages: [
-      './src/assets/placeholders/case-01.jpg',
-      './src/assets/placeholders/case-02.jpg',
-      './src/assets/placeholders/case-03.jpg',
-      './src/assets/placeholders/case-04.jpg'
-    ],
-    structureImage: './src/assets/placeholders/structure.jpg',
-    material: '铝合金',
-    color: '多种颜色可定制',
-    craft: '氟碳喷涂',
-    opening: category.id === 'gazebo' ? '模块组合' : '按场景定制',
-    custom: '支持尺寸 / 颜色 / 款式定制'
+function findCategory(catalog, categoryId) {
+  return catalog.categories.find((category) => category.id === categoryId);
+}
+
+function findProduct(catalog, productId) {
+  return catalog.products.find((product) => product.id.toLowerCase() === productId.toLowerCase());
+}
+
+function getGateTypeFolder(gateType) {
+  const gateTypeFolders = {
+    大门: 'main-gate',
+    小门: 'small-gate',
+    推拉门: 'sliding-gate'
   };
+
+  return gateTypeFolders[gateType] || 'main-gate';
 }

@@ -17,6 +17,7 @@ export function CatalogMenu({ brand, categories, open }) {
           </div>
           <button class="text-button" type="button" data-menu-close>关闭</button>
         </div>
+        <img class="menu-cover" src="${brand.catalogCover}" alt="" loading="lazy" />
         <button class="menu-home" type="button" data-nav="#/" data-menu-close>首页</button>
         <div class="menu-grid">${items}</div>
       </section>

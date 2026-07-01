@@ -1,5 +1,9 @@
 {
   "logoText": "LOGO",
+  "logo": "./assets/images/brand/logo.webp",
+  "shareCard": "./assets/images/brand/share-card.jpg",
+  "favicon": "./assets/images/brand/favicon.png",
+  "catalogCover": "./assets/images/hero/catalog-cover.webp",
   "companyName": "企业名称占位",
   "englishName": "BRAND NAME PLACEHOLDER",
   "slogan": "专注庭院金属定制 · 打造品质生活空间",

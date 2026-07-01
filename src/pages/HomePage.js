@@ -4,7 +4,9 @@ export function HomePage({ brand, categories }) {
   return `
     <section class="home-hero">
       <div class="brand-lockup">
-        <div class="logo-mark">${brand.logoText}</div>
+        <div class="logo-mark">
+          <img src="${brand.logo}" alt="${brand.companyName}标识" />
+        </div>
         <div>
           <h1>${brand.companyName}</h1>
           <p>${brand.englishName}</p>
@@ -15,7 +17,7 @@ export function HomePage({ brand, categories }) {
         <p>${brand.subSlogan}</p>
         <i></i>
       </div>
-      <img class="hero-image" src="./src/assets/placeholders/hero.jpg" alt="庭院金属产品画册主视觉" />
+      <img class="hero-image" src="./assets/images/hero/home-hero.webp" alt="庭院金属产品画册主视觉" />
     </section>
 
     <section class="category-list" aria-label="一级目录">
