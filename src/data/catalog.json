@@ -128,7 +128,7 @@
       "subtitle": "金属细节 · 庭院气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -151,7 +151,7 @@
       "subtitle": "金属细节 · 院门气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -174,7 +174,7 @@
       "subtitle": "金属细节 · 院门气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -197,7 +197,7 @@
       "subtitle": "金属细节 · 院门气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -220,7 +220,7 @@
       "subtitle": "金属细节 · 院门气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -243,8 +243,8 @@
       "subtitle": "金属细节 · 庭院气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
-        "opening": "双开门",
+        "finish": "静电喷涂",
+        "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
       "cardImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-001/card.webp",
@@ -266,8 +266,8 @@
       "subtitle": "金属细节 · 庭院气度",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
-        "opening": "双开门",
+        "finish": "静电喷涂",
+        "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
       "cardImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-002/card.webp",
@@ -289,7 +289,7 @@
       "subtitle": "极窄边框 · 竖向格栅设计",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -335,7 +335,7 @@
       "subtitle": "竖向格栅 · 通透设计",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -358,7 +358,7 @@
       "subtitle": "简洁线条 · 院门美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -381,7 +381,7 @@
       "subtitle": "简洁线条 · 院门美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -404,8 +404,8 @@
       "subtitle": "极窄边框 · 竖向格栅设计",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
-        "opening": "双开门",
+        "finish": "静电喷涂",
+        "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
       "cardImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/card.webp",
@@ -427,8 +427,8 @@
       "subtitle": "极窄边框 · 竖向格栅设计",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
-        "opening": "双开门",
+        "finish": "静电喷涂",
+        "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
       "cardImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/card.webp",
@@ -450,7 +450,7 @@
       "subtitle": "东方格栅 · 对称美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -473,7 +473,7 @@
       "subtitle": "东方格栅 · 对称美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -496,7 +496,7 @@
       "subtitle": "东方格栅 · 对称美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -519,8 +519,8 @@
       "subtitle": "东方格栅 · 对称美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
-        "opening": "双开门",
+        "finish": "静电喷涂",
+        "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
       "cardImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/card.webp",
@@ -542,8 +542,8 @@
       "subtitle": "东方格栅 · 对称美学",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
-        "opening": "双开门",
+        "finish": "静电喷涂",
+        "opening": "左右平移推拉开启",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
       "cardImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/card.webp",
@@ -564,7 +564,7 @@
       "subtitle": "精细金属线条 · 克制点缀",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -586,7 +586,7 @@
       "subtitle": "精细金属线条 · 克制点缀",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -608,7 +608,7 @@
       "subtitle": "精细金属线条 · 克制点缀",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -630,7 +630,7 @@
       "subtitle": "精细金属线条 · 克制点缀",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -652,7 +652,7 @@
       "subtitle": "精细金属线条 · 克制点缀",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -674,7 +674,7 @@
       "subtitle": "精细金属线条 · 克制点缀",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -718,7 +718,7 @@
       "subtitle": "东方纹样 · 现代表达",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -740,7 +740,7 @@
       "subtitle": "东方纹样 · 现代表达",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -762,7 +762,7 @@
       "subtitle": "精致比例 · 金属质感",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -784,7 +784,7 @@
       "subtitle": "精致比例 · 金属质感",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -806,7 +806,7 @@
       "subtitle": "精致比例 · 金属质感",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -828,7 +828,7 @@
       "subtitle": "精致比例 · 金属质感",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -916,7 +916,7 @@
       "subtitle": "格栅韵律 · 东方秩序",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -938,7 +938,7 @@
       "subtitle": "庭院休憩 · 稳重大气",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -960,7 +960,7 @@
       "subtitle": "庭院休憩 · 稳重大气",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -982,7 +982,7 @@
       "subtitle": "庭院休憩 · 稳重大气",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -1004,7 +1004,7 @@
       "subtitle": "庭院休憩 · 稳重大气",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -1026,7 +1026,7 @@
       "subtitle": "庭院休憩 · 稳重大气",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
@@ -1048,7 +1048,7 @@
       "subtitle": "线性延展 · 空间过渡",
       "specs": {
         "material": "铝合金",
-        "finish": "氟碳喷涂",
+        "finish": "静电喷涂",
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
