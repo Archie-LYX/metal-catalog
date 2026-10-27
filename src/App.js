@@ -144,10 +144,10 @@ function normalizeCatalog(catalog) {
       ...product,
       id,
       code: id,
-      heroImage: `${assetRoot}/hero.webp`,
+      heroImage: product.heroImage || `${assetRoot}/hero.webp`,
       cardImage: product.cardImage || `${assetRoot}/card.webp`,
-      caseImages: [1, 2, 3, 4].map((number) => `${assetRoot}/case-0${number}.webp`),
-      structureImage: `${assetRoot}/structure.webp`
+      caseImages: product.caseImages || [1, 2, 3, 4].map((number) => `${assetRoot}/case-0${number}.webp`),
+      structureImage: product.structureAvailable === false ? null : (product.structureImage || `${assetRoot}/structure.webp`)
     };
   });
 
@@ -172,6 +172,7 @@ function findCategory(catalog, categoryId) {
 }
 
 function findProduct(catalog, productId) {
+  if (productId.toUpperCase() === 'G-LA-MG-008') productId = 'G-LA-MG-005';
   return catalog.products.find((product) => product.id.toLowerCase() === productId.toLowerCase());
 }
 

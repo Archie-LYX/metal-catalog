@@ -6,28 +6,28 @@
       "title": "院门系列",
       "enTitle": "COURTYARD GATE SERIES",
       "description": "大门、小门与推拉门，匹配不同庭院美学",
-      "image": "./assets/images/hero/categories/gates.webp",
+      "image": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/photo-hero.webp",
       "series": [
         {
           "id": "luxury-art",
           "number": "01",
           "title": "轻奢艺术",
           "subtitle": "精致细节 · 轻奢质感",
-          "image": "./assets/images/hero/series/gates/luxury-art.webp"
+          "image": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/photo-hero.webp"
         },
         {
           "id": "modern-minimal",
           "number": "02",
           "title": "现代极简",
           "subtitle": "简洁线条 · 纯粹之美",
-          "image": "./assets/images/hero/series/gates/modern-minimal.webp"
+          "image": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/photo-hero.webp"
         },
         {
           "id": "new-chinese",
           "number": "03",
           "title": "新中式",
           "subtitle": "东方意境 · 庭院雅韵",
-          "image": "./assets/images/hero/series/gates/new-chinese.webp"
+          "image": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/photo-hero.webp"
         }
       ]
     },
@@ -37,21 +37,21 @@
       "title": "护栏系列",
       "enTitle": "RAILING SERIES",
       "description": "适配阳台、露台与庭院空间",
-      "image": "./assets/images/hero/categories/railings.webp",
+      "image": "./assets/images/products/railings/luxury-art/R-LA-004/photo-hero.webp",
       "series": [
         {
           "id": "luxury-art",
           "number": "01",
           "title": "轻奢艺术",
           "subtitle": "细节点缀 · 高级立面",
-          "image": "./assets/images/hero/series/railings/luxury-art.webp"
+          "image": "./assets/images/products/railings/luxury-art/R-LA-004/photo-hero.webp"
         },
         {
           "id": "modern-minimal",
           "number": "02",
           "title": "现代极简",
           "subtitle": "轻薄边框 · 通透视觉",
-          "image": "./assets/images/hero/series/railings/modern-minimal.webp"
+          "image": "./assets/images/products/railings/modern-minimal/R-MM-001/photo-hero.webp"
         },
         {
           "id": "new-chinese",
@@ -68,28 +68,28 @@
       "title": "围栏系列",
       "enTitle": "FENCE SERIES",
       "description": "延展庭院边界，保持整体秩序感",
-      "image": "./assets/images/hero/categories/fences.webp",
+      "image": "./assets/images/products/fences/luxury-art/F-LA-003/photo-hero.webp",
       "series": [
         {
           "id": "luxury-art",
           "number": "01",
           "title": "轻奢艺术",
           "subtitle": "金属细节 · 克制装饰",
-          "image": "./assets/images/hero/series/fences/luxury-art.webp"
+          "image": "./assets/images/products/fences/luxury-art/F-LA-003/photo-hero.webp"
         },
         {
           "id": "modern-minimal",
           "number": "02",
           "title": "现代极简",
           "subtitle": "规整比例 · 清晰利落",
-          "image": "./assets/images/hero/series/fences/modern-minimal.webp"
+          "image": "./assets/images/products/fences/modern-minimal/F-MM-001/photo-hero.webp"
         },
         {
           "id": "new-chinese",
           "number": "03",
           "title": "新中式",
           "subtitle": "格栅韵律 · 东方秩序",
-          "image": "./assets/images/hero/series/fences/new-chinese.webp"
+          "image": "./assets/images/products/fences/new-chinese/F-NC-001/photo-hero.webp"
         }
       ]
     },
@@ -99,14 +99,14 @@
       "title": "凉亭廊架",
       "enTitle": "PAVILION & PERGOLA",
       "description": "营造庭院休憩与遮蔽空间",
-      "image": "./assets/images/hero/categories/pavilion-pergola.webp",
+      "image": "./assets/images/products/pavilion-pergola/pavilion/PV-003/photo-hero.webp",
       "series": [
         {
           "id": "pavilion",
           "number": "01",
           "title": "凉亭系列",
           "subtitle": "庭院休憩 · 稳重大气",
-          "image": "./assets/images/hero/series/pavilion-pergola/pavilion.webp"
+          "image": "./assets/images/products/pavilion-pergola/pavilion/PV-003/photo-hero.webp"
         },
         {
           "id": "pergola",
@@ -132,15 +132,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/card.webp",
-      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/hero.webp",
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/case-01.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/case-02.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/case-03.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/case-04.webp"
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-001/structure.webp",
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/1.jpg"
     },
     {
       "id": "G-LA-MG-002",
@@ -155,15 +162,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/card.webp",
-      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/hero.webp",
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/case-01.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/case-02.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/case-03.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/case-04.webp"
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-002/structure.webp",
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/2.jpg"
     },
     {
       "id": "G-LA-MG-003",
@@ -178,15 +192,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/card.webp",
-      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/hero.webp",
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/case-01.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/case-02.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/case-03.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/case-04.webp"
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-003/structure.webp",
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/3.jpg"
     },
     {
       "id": "G-LA-MG-004",
@@ -201,15 +222,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/card.webp",
-      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/hero.webp",
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/case-01.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/case-02.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/case-03.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/case-04.webp"
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-004/structure.webp",
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/4.jpg"
     },
     {
       "id": "G-LA-MG-005",
@@ -221,18 +249,25 @@
       "specs": {
         "material": "铝合金",
         "finish": "静电喷涂",
-        "opening": "双开门",
+        "opening": "双开门（内置小门）",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/card.webp",
-      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/hero.webp",
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/case-01.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/case-02.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/case-03.webp",
-        "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/case-04.webp"
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-005/structure.webp",
+      "detailLabels": [
+        "顶部雕花",
+        "中央花饰",
+        "门扇把手",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/8.jpg"
     },
     {
       "id": "G-LA-SG-001",
@@ -255,7 +290,9 @@
         "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-001/case-03.webp",
         "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-001/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-001/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "对应小门/3.jpg仅350×350像素，无法提供清晰主图与4处细节"
     },
     {
       "id": "G-LA-SG-002",
@@ -278,7 +315,9 @@
         "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-002/case-03.webp",
         "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-002/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-002/structure.webp"
+      "structureImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-002/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "对应小门/6.jpg为640×949竖图，门体较满，统一4:3后清晰度和取景不足"
     },
     {
       "id": "G-MM-MG-001",
@@ -293,15 +332,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/case-04.webp"
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-001/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/1 (1).jpg"
     },
     {
       "id": "G-MM-MG-002",
@@ -316,15 +362,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/case-04.webp"
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-002/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/1 (1).webp"
     },
     {
       "id": "G-MM-MG-003",
@@ -339,15 +392,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/case-04.webp"
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-003/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/1 (3).jpg"
     },
     {
       "id": "G-MM-MG-004",
@@ -362,15 +422,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/case-04.webp"
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-004/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/1 (9).jpg"
     },
     {
       "id": "G-MM-MG-005",
@@ -385,15 +452,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/case-04.webp"
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-005/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/1 (11).jpg"
     },
     {
       "id": "G-MM-SG-001",
@@ -408,15 +482,22 @@
         "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/case-04.webp"
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-001/structure.webp",
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/1 (5).jpg"
     },
     {
       "id": "G-MM-SG-002",
@@ -431,15 +512,22 @@
         "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/card.webp",
-      "heroImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/hero.webp",
+      "cardImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/case-01.webp",
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/case-02.webp",
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/case-03.webp",
-        "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/case-04.webp"
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/structure.webp"
+      "structureImage": "./assets/images/products/gates/modern-minimal/small-gate/G-MM-SG-002/structure.webp",
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/21f0b641c60a91c39b6b3564454fc8a5.jpg"
     },
     {
       "id": "G-NC-MG-001",
@@ -454,15 +542,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/card.webp",
-      "heroImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/hero.webp",
+      "cardImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/case-01.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/case-02.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/case-03.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/case-04.webp"
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/detail-01.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/detail-02.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/detail-03.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-001/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/1 (10).jpg"
     },
     {
       "id": "G-NC-MG-002",
@@ -477,15 +572,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/card.webp",
-      "heroImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/hero.webp",
+      "cardImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/case-01.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/case-02.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/case-03.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/case-04.webp"
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/detail-01.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/detail-02.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/detail-03.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/structure.webp"
+      "structureImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-002/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/新中式/1 (1).jpg"
     },
     {
       "id": "G-NC-MG-003",
@@ -500,15 +602,22 @@
         "opening": "双开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/card.webp",
-      "heroImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/hero.webp",
+      "cardImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/case-01.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/case-02.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/case-03.webp",
-        "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/case-04.webp"
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/detail-01.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/detail-02.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/detail-03.webp",
+        "assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/structure.webp"
+      "structureImage": "./assets/images/products/gates/new-chinese/main-gate/G-NC-MG-003/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/新中式/1 (2).jpg"
     },
     {
       "id": "G-NC-SG-001",
@@ -523,15 +632,22 @@
         "opening": "单开门",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/card.webp",
-      "heroImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/hero.webp",
+      "cardImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/case-01.webp",
-        "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/case-02.webp",
-        "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/case-03.webp",
-        "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/case-04.webp"
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/detail-01.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/detail-02.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/detail-03.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-001/structure.webp",
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/3a1f51137f05ac9e14e54295544681ec.jpg"
     },
     {
       "id": "G-NC-SL-001",
@@ -546,15 +662,22 @@
         "opening": "左右平移推拉开启",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/card.webp",
-      "heroImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/hero.webp",
+      "cardImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/case-01.webp",
-        "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/case-02.webp",
-        "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/case-03.webp",
-        "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/case-04.webp"
+        "assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/detail-01.webp",
+        "assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/detail-02.webp",
+        "assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/detail-03.webp",
+        "assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/structure.webp"
+      "structureImage": "./assets/images/products/gates/new-chinese/sliding-gate/G-NC-SL-001/structure.webp",
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "推拉门/1.jpg"
     },
     {
       "id": "R-LA-001",
@@ -568,15 +691,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-001/card.webp",
-      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-001/hero.webp",
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-001/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/railings/luxury-art/R-LA-001/case-01.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-001/case-02.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-001/case-03.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-001/case-04.webp"
+        "assets/images/products/railings/luxury-art/R-LA-001/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-001/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-001/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-001/structure.webp"
+      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-001/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/轻奢艺术/1 (1).jpg"
     },
     {
       "id": "R-LA-002",
@@ -590,15 +720,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-002/card.webp",
-      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-002/hero.webp",
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-002/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/railings/luxury-art/R-LA-002/case-01.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-002/case-02.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-002/case-03.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-002/case-04.webp"
+        "assets/images/products/railings/luxury-art/R-LA-002/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-002/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-002/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-002/structure.webp"
+      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-002/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/01.jpg"
     },
     {
       "id": "R-LA-003",
@@ -620,7 +757,9 @@
         "./assets/images/products/railings/luxury-art/R-LA-003/case-03.webp",
         "./assets/images/products/railings/luxury-art/R-LA-003/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-003/structure.webp"
+      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-003/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "暂未找到与该白底图外形一致的实拍素材"
     },
     {
       "id": "R-LA-004",
@@ -634,15 +773,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-004/card.webp",
-      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-004/hero.webp",
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-004/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-004/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/railings/luxury-art/R-LA-004/case-01.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-004/case-02.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-004/case-03.webp",
-        "./assets/images/products/railings/luxury-art/R-LA-004/case-04.webp"
+        "assets/images/products/railings/luxury-art/R-LA-004/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-004/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-004/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-004/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-004/structure.webp"
+      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-004/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/新中式/1 (1).jpg"
     },
     {
       "id": "R-LA-005",
@@ -664,7 +810,9 @@
         "./assets/images/products/railings/luxury-art/R-LA-005/case-03.webp",
         "./assets/images/products/railings/luxury-art/R-LA-005/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-005/structure.webp"
+      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-005/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "暂未找到与该白底图外形一致的实拍素材"
     },
     {
       "id": "R-LA-006",
@@ -686,7 +834,9 @@
         "./assets/images/products/railings/luxury-art/R-LA-006/case-03.webp",
         "./assets/images/products/railings/luxury-art/R-LA-006/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-006/structure.webp"
+      "structureImage": "./assets/images/products/railings/luxury-art/R-LA-006/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "暂未找到与该白底图外形一致的实拍素材"
     },
     {
       "id": "R-MM-001",
@@ -700,15 +850,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/railings/modern-minimal/R-MM-001/card.webp",
-      "heroImage": "./assets/images/products/railings/modern-minimal/R-MM-001/hero.webp",
+      "cardImage": "./assets/images/products/railings/modern-minimal/R-MM-001/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/modern-minimal/R-MM-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/railings/modern-minimal/R-MM-001/case-01.webp",
-        "./assets/images/products/railings/modern-minimal/R-MM-001/case-02.webp",
-        "./assets/images/products/railings/modern-minimal/R-MM-001/case-03.webp",
-        "./assets/images/products/railings/modern-minimal/R-MM-001/case-04.webp"
+        "assets/images/products/railings/modern-minimal/R-MM-001/detail-01.webp",
+        "assets/images/products/railings/modern-minimal/R-MM-001/detail-02.webp",
+        "assets/images/products/railings/modern-minimal/R-MM-001/detail-03.webp",
+        "assets/images/products/railings/modern-minimal/R-MM-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/modern-minimal/R-MM-001/structure.webp"
+      "structureImage": "./assets/images/products/railings/modern-minimal/R-MM-001/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "竖杆细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/现代极简/1 (1).jpg"
     },
     {
       "id": "R-NC-001",
@@ -730,7 +887,9 @@
         "./assets/images/products/railings/new-chinese/R-NC-001/case-03.webp",
         "./assets/images/products/railings/new-chinese/R-NC-001/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/new-chinese/R-NC-001/structure.webp"
+      "structureImage": "./assets/images/products/railings/new-chinese/R-NC-001/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "暂未找到与该白底图外形一致的实拍素材"
     },
     {
       "id": "R-NC-002",
@@ -744,15 +903,23 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/railings/new-chinese/R-NC-002/card.webp",
-      "heroImage": "./assets/images/products/railings/new-chinese/R-NC-002/hero.webp",
+      "cardImage": "./assets/images/products/railings/new-chinese/R-NC-002/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/new-chinese/R-NC-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/railings/new-chinese/R-NC-002/case-01.webp",
-        "./assets/images/products/railings/new-chinese/R-NC-002/case-02.webp",
-        "./assets/images/products/railings/new-chinese/R-NC-002/case-03.webp",
-        "./assets/images/products/railings/new-chinese/R-NC-002/case-04.webp"
+        "assets/images/products/railings/new-chinese/R-NC-002/detail-01.webp",
+        "assets/images/products/railings/new-chinese/R-NC-002/detail-02.webp",
+        "assets/images/products/railings/new-chinese/R-NC-002/detail-03.webp",
+        "assets/images/products/railings/new-chinese/R-NC-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/railings/new-chinese/R-NC-002/structure.webp"
+      "structureImage": "./assets/images/products/railings/new-chinese/R-NC-002/structure.webp",
+      "sourceReviewReason": "暂未找到与该白底图外形一致的实拍素材",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/05.jpg"
     },
     {
       "id": "F-LA-001",
@@ -766,15 +933,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-001/card.webp",
-      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-001/hero.webp",
+      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-001/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/luxury-art/F-LA-001/case-01.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-001/case-02.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-001/case-03.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-001/case-04.webp"
+        "assets/images/products/fences/luxury-art/F-LA-001/detail-01.webp",
+        "assets/images/products/fences/luxury-art/F-LA-001/detail-02.webp",
+        "assets/images/products/fences/luxury-art/F-LA-001/detail-03.webp",
+        "assets/images/products/fences/luxury-art/F-LA-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-001/structure.webp"
+      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-001/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/轻奢艺术/10.jpg"
     },
     {
       "id": "F-LA-002",
@@ -788,15 +962,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-002/card.webp",
-      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-002/hero.webp",
+      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-002/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/luxury-art/F-LA-002/case-01.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-002/case-02.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-002/case-03.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-002/case-04.webp"
+        "assets/images/products/fences/luxury-art/F-LA-002/detail-01.webp",
+        "assets/images/products/fences/luxury-art/F-LA-002/detail-02.webp",
+        "assets/images/products/fences/luxury-art/F-LA-002/detail-03.webp",
+        "assets/images/products/fences/luxury-art/F-LA-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-002/structure.webp"
+      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-002/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/轻奢艺术/40.jpg"
     },
     {
       "id": "F-LA-003",
@@ -810,15 +991,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-003/card.webp",
-      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-003/hero.webp",
+      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-003/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-003/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/luxury-art/F-LA-003/case-01.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-003/case-02.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-003/case-03.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-003/case-04.webp"
+        "assets/images/products/fences/luxury-art/F-LA-003/detail-01.webp",
+        "assets/images/products/fences/luxury-art/F-LA-003/detail-02.webp",
+        "assets/images/products/fences/luxury-art/F-LA-003/detail-03.webp",
+        "assets/images/products/fences/luxury-art/F-LA-003/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-003/structure.webp"
+      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-003/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/轻奢艺术/1 (4).jpg"
     },
     {
       "id": "F-LA-004",
@@ -832,15 +1020,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-004/card.webp",
-      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-004/hero.webp",
+      "cardImage": "./assets/images/products/fences/luxury-art/F-LA-004/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/luxury-art/F-LA-004/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/luxury-art/F-LA-004/case-01.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-004/case-02.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-004/case-03.webp",
-        "./assets/images/products/fences/luxury-art/F-LA-004/case-04.webp"
+        "assets/images/products/fences/luxury-art/F-LA-004/detail-01.webp",
+        "assets/images/products/fences/luxury-art/F-LA-004/detail-02.webp",
+        "assets/images/products/fences/luxury-art/F-LA-004/detail-03.webp",
+        "assets/images/products/fences/luxury-art/F-LA-004/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-004/structure.webp"
+      "structureImage": "./assets/images/products/fences/luxury-art/F-LA-004/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/轻奢艺术/1 (8).jpg"
     },
     {
       "id": "F-MM-001",
@@ -854,15 +1049,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/modern-minimal/F-MM-001/card.webp",
-      "heroImage": "./assets/images/products/fences/modern-minimal/F-MM-001/hero.webp",
+      "cardImage": "./assets/images/products/fences/modern-minimal/F-MM-001/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/modern-minimal/F-MM-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/modern-minimal/F-MM-001/case-01.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-001/case-02.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-001/case-03.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-001/case-04.webp"
+        "assets/images/products/fences/modern-minimal/F-MM-001/detail-01.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-001/detail-02.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-001/detail-03.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/modern-minimal/F-MM-001/structure.webp"
+      "structureImage": "./assets/images/products/fences/modern-minimal/F-MM-001/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "竖杆细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/现代极简/1 (1).jpg"
     },
     {
       "id": "F-MM-002",
@@ -876,15 +1078,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/modern-minimal/F-MM-002/card.webp",
-      "heroImage": "./assets/images/products/fences/modern-minimal/F-MM-002/hero.webp",
+      "cardImage": "./assets/images/products/fences/modern-minimal/F-MM-002/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/modern-minimal/F-MM-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/modern-minimal/F-MM-002/case-01.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-002/case-02.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-002/case-03.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-002/case-04.webp"
+        "assets/images/products/fences/modern-minimal/F-MM-002/detail-01.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-002/detail-02.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-002/detail-03.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/modern-minimal/F-MM-002/structure.webp"
+      "structureImage": "./assets/images/products/fences/modern-minimal/F-MM-002/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "竖杆细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/现代极简/35.jpg"
     },
     {
       "id": "F-MM-003",
@@ -898,15 +1107,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/modern-minimal/F-MM-003/card.webp",
-      "heroImage": "./assets/images/products/fences/modern-minimal/F-MM-003/hero.webp",
+      "cardImage": "./assets/images/products/fences/modern-minimal/F-MM-003/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/modern-minimal/F-MM-003/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/modern-minimal/F-MM-003/case-01.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-003/case-02.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-003/case-03.webp",
-        "./assets/images/products/fences/modern-minimal/F-MM-003/case-04.webp"
+        "assets/images/products/fences/modern-minimal/F-MM-003/detail-01.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-003/detail-02.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-003/detail-03.webp",
+        "assets/images/products/fences/modern-minimal/F-MM-003/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/modern-minimal/F-MM-003/structure.webp"
+      "structureImage": "./assets/images/products/fences/modern-minimal/F-MM-003/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "竖杆细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/现代极简/1 (3).jpg"
     },
     {
       "id": "F-NC-001",
@@ -920,15 +1136,22 @@
         "opening": "固定安装",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/fences/new-chinese/F-NC-001/card.webp",
-      "heroImage": "./assets/images/products/fences/new-chinese/F-NC-001/hero.webp",
+      "cardImage": "./assets/images/products/fences/new-chinese/F-NC-001/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/new-chinese/F-NC-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/fences/new-chinese/F-NC-001/case-01.webp",
-        "./assets/images/products/fences/new-chinese/F-NC-001/case-02.webp",
-        "./assets/images/products/fences/new-chinese/F-NC-001/case-03.webp",
-        "./assets/images/products/fences/new-chinese/F-NC-001/case-04.webp"
+        "assets/images/products/fences/new-chinese/F-NC-001/detail-01.webp",
+        "assets/images/products/fences/new-chinese/F-NC-001/detail-02.webp",
+        "assets/images/products/fences/new-chinese/F-NC-001/detail-03.webp",
+        "assets/images/products/fences/new-chinese/F-NC-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/fences/new-chinese/F-NC-001/structure.webp"
+      "structureImage": "./assets/images/products/fences/new-chinese/F-NC-001/structure.webp",
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/新中式/1 (7).jpg"
     },
     {
       "id": "PV-001",
@@ -942,15 +1165,22 @@
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-001/card.webp",
-      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-001/hero.webp",
+      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-001/photo-card.webp",
+      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-001/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/pavilion-pergola/pavilion/PV-001/case-01.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-001/case-02.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-001/case-03.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-001/case-04.webp"
+        "assets/images/products/pavilion-pergola/pavilion/PV-001/detail-01.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-001/detail-02.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-001/detail-03.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-001/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-001/structure.webp"
+      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-001/structure.webp",
+      "detailLabels": [
+        "檐口线条",
+        "立柱细节",
+        "格栅纹样",
+        "底座收边"
+      ],
+      "photoSource": "凉亭廊架/凉亭系列/c9ba07eb9fb3318d6e0ec93ae98ac919.jpg"
     },
     {
       "id": "PV-002",
@@ -964,15 +1194,22 @@
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-002/card.webp",
-      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-002/hero.webp",
+      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-002/photo-card.webp",
+      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-002/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/pavilion-pergola/pavilion/PV-002/case-01.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-002/case-02.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-002/case-03.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-002/case-04.webp"
+        "assets/images/products/pavilion-pergola/pavilion/PV-002/detail-01.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-002/detail-02.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-002/detail-03.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-002/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-002/structure.webp"
+      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-002/structure.webp",
+      "detailLabels": [
+        "檐口线条",
+        "立柱细节",
+        "格栅纹样",
+        "底座收边"
+      ],
+      "photoSource": "凉亭廊架/凉亭系列/4fc88f48c276aaf0f2fdb36c2dbb0bfe.jpg"
     },
     {
       "id": "PV-003",
@@ -986,15 +1223,22 @@
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-003/card.webp",
-      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-003/hero.webp",
+      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-003/photo-card.webp",
+      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-003/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/pavilion-pergola/pavilion/PV-003/case-01.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-003/case-02.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-003/case-03.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-003/case-04.webp"
+        "assets/images/products/pavilion-pergola/pavilion/PV-003/detail-01.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-003/detail-02.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-003/detail-03.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-003/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-003/structure.webp"
+      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-003/structure.webp",
+      "detailLabels": [
+        "檐口线条",
+        "立柱细节",
+        "格栅纹样",
+        "底座收边"
+      ],
+      "photoSource": "凉亭廊架/凉亭系列/6b2c0dd02c82d61488ea1e212e1a9ce6.jpg"
     },
     {
       "id": "PV-004",
@@ -1016,7 +1260,9 @@
         "./assets/images/products/pavilion-pergola/pavilion/PV-004/case-03.webp",
         "./assets/images/products/pavilion-pergola/pavilion/PV-004/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-004/structure.webp"
+      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-004/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "原图产品边缘接近画面边界，补成4:3会涉及补画产品，暂不采用"
     },
     {
       "id": "PV-005",
@@ -1030,15 +1276,22 @@
         "opening": "模块组合",
         "custom": "尺寸 / 颜色 / 款式均可定制"
       },
-      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-005/card.webp",
-      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-005/hero.webp",
+      "cardImage": "./assets/images/products/pavilion-pergola/pavilion/PV-005/photo-card.webp",
+      "heroImage": "./assets/images/products/pavilion-pergola/pavilion/PV-005/photo-hero.webp",
       "caseImages": [
-        "./assets/images/products/pavilion-pergola/pavilion/PV-005/case-01.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-005/case-02.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-005/case-03.webp",
-        "./assets/images/products/pavilion-pergola/pavilion/PV-005/case-04.webp"
+        "assets/images/products/pavilion-pergola/pavilion/PV-005/detail-01.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-005/detail-02.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-005/detail-03.webp",
+        "assets/images/products/pavilion-pergola/pavilion/PV-005/detail-04.webp"
       ],
-      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-005/structure.webp"
+      "structureImage": "./assets/images/products/pavilion-pergola/pavilion/PV-005/structure.webp",
+      "detailLabels": [
+        "檐口线条",
+        "立柱细节",
+        "格栅纹样",
+        "底座收边"
+      ],
+      "photoSource": "凉亭廊架/凉亭系列/add7f3ae25dddb9c31f2688591121abd.jpg"
     },
     {
       "id": "PG-001",
@@ -1060,7 +1313,547 @@
         "./assets/images/products/pavilion-pergola/pergola/PG-001/case-03.webp",
         "./assets/images/products/pavilion-pergola/pergola/PG-001/case-04.webp"
       ],
-      "structureImage": "./assets/images/products/pavilion-pergola/pergola/PG-001/structure.webp"
+      "structureImage": "./assets/images/products/pavilion-pergola/pergola/PG-001/structure.webp",
+      "needsSource": true,
+      "sourceReviewReason": "暂未找到与该白底图外形一致的实拍素材"
+    },
+    {
+      "id": "G-MM-MG-006",
+      "category": "gates",
+      "style": "modern-minimal",
+      "gateType": "大门",
+      "name": "现代极简庭院大门",
+      "subtitle": "极窄边框 · 竖向格栅设计",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-006/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/34.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-MM-MG-007",
+      "category": "gates",
+      "style": "modern-minimal",
+      "gateType": "大门",
+      "name": "现代极简庭院大门",
+      "subtitle": "极窄边框 · 竖向格栅设计",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/detail-01.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/detail-02.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/detail-03.webp",
+        "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/modern-minimal/main-gate/G-MM-MG-007/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "门框线条",
+        "门扇细节",
+        "中部细节",
+        "底部收边"
+      ],
+      "photoSource": "大门/现代极简/37.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-MG-006",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "大门",
+      "name": "轻奢艺术庭院大门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-006/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/19.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-MG-007",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "大门",
+      "name": "轻奢艺术庭院大门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-007/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/25.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-MG-009",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "大门",
+      "name": "轻奢艺术庭院大门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-009/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/39.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-MG-010",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "大门",
+      "name": "轻奢艺术庭院大门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/detail-01.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/detail-02.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/detail-03.webp",
+        "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/main-gate/G-LA-MG-010/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "大门/轻奢艺术/42.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-SG-003",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "小门",
+      "name": "轻奢艺术庭院小门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/detail-01.webp",
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/detail-02.webp",
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/detail-03.webp",
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-003/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/24.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-NC-SG-003",
+      "category": "gates",
+      "style": "new-chinese",
+      "gateType": "小门",
+      "name": "新中式庭院小门",
+      "subtitle": "东方格栅 · 对称美学",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/detail-01.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/detail-02.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/detail-03.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-003/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/32.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-SG-004",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "小门",
+      "name": "轻奢艺术庭院小门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/detail-01.webp",
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/detail-02.webp",
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/detail-03.webp",
+        "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/small-gate/G-LA-SG-004/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/33.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-NC-SG-004",
+      "category": "gates",
+      "style": "new-chinese",
+      "gateType": "小门",
+      "name": "新中式庭院小门",
+      "subtitle": "东方格栅 · 对称美学",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "按实际开口定制",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/detail-01.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/detail-02.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/detail-03.webp",
+        "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/new-chinese/small-gate/G-NC-SG-004/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "门框造型",
+        "门扇细节",
+        "锁具位置",
+        "底部收边"
+      ],
+      "photoSource": "小门/44.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "G-LA-SL-001",
+      "category": "gates",
+      "style": "luxury-art",
+      "gateType": "推拉门",
+      "name": "轻奢艺术庭院推拉门",
+      "subtitle": "金属细节 · 庭院气度",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "推拉开启",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/photo-card.webp",
+      "heroImage": "./assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/detail-01.webp",
+        "assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/detail-02.webp",
+        "assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/detail-03.webp",
+        "assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/gates/luxury-art/sliding-gate/G-LA-SL-001/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部造型",
+        "门扇细节",
+        "中部连接",
+        "底部纹饰"
+      ],
+      "photoSource": "推拉门/46.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "R-LA-007",
+      "category": "railings",
+      "style": "luxury-art",
+      "name": "轻奢艺术护栏",
+      "subtitle": "精细金属线条 · 克制点缀",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "固定安装",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-007/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-007/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/railings/luxury-art/R-LA-007/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-007/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-007/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-007/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/railings/luxury-art/R-LA-007/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/13.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "R-LA-008",
+      "category": "railings",
+      "style": "luxury-art",
+      "name": "轻奢艺术护栏",
+      "subtitle": "精细金属线条 · 克制点缀",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "固定安装",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-008/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-008/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/railings/luxury-art/R-LA-008/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-008/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-008/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-008/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/railings/luxury-art/R-LA-008/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/20.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "R-LA-009",
+      "category": "railings",
+      "style": "luxury-art",
+      "name": "轻奢艺术护栏",
+      "subtitle": "精细金属线条 · 克制点缀",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "固定安装",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-009/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-009/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/railings/luxury-art/R-LA-009/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-009/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-009/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-009/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/railings/luxury-art/R-LA-009/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/21.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "R-LA-010",
+      "category": "railings",
+      "style": "luxury-art",
+      "name": "轻奢艺术护栏",
+      "subtitle": "精细金属线条 · 克制点缀",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "固定安装",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/railings/luxury-art/R-LA-010/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/luxury-art/R-LA-010/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/railings/luxury-art/R-LA-010/detail-01.webp",
+        "assets/images/products/railings/luxury-art/R-LA-010/detail-02.webp",
+        "assets/images/products/railings/luxury-art/R-LA-010/detail-03.webp",
+        "assets/images/products/railings/luxury-art/R-LA-010/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/railings/luxury-art/R-LA-010/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/22.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "R-MM-002",
+      "category": "railings",
+      "style": "modern-minimal",
+      "name": "现代极简护栏",
+      "subtitle": "轻薄边框 · 通透视野",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电粉末喷涂",
+        "opening": "固定安装",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/railings/modern-minimal/R-MM-002/photo-card.webp",
+      "heroImage": "./assets/images/products/railings/modern-minimal/R-MM-002/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/railings/modern-minimal/R-MM-002/detail-01.webp",
+        "assets/images/products/railings/modern-minimal/R-MM-002/detail-02.webp",
+        "assets/images/products/railings/modern-minimal/R-MM-002/detail-03.webp",
+        "assets/images/products/railings/modern-minimal/R-MM-002/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/railings/modern-minimal/R-MM-002/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "护栏系列/28.jpg",
+      "structureSource": "photo-derived-white-background"
+    },
+    {
+      "id": "F-NC-002",
+      "category": "fences",
+      "style": "new-chinese",
+      "name": "新中式围栏",
+      "subtitle": "格栅韵律 · 东方秩序",
+      "specs": {
+        "material": "铝合金",
+        "finish": "静电喷涂",
+        "opening": "固定安装",
+        "custom": "尺寸 / 颜色 / 款式均可定制"
+      },
+      "cardImage": "./assets/images/products/fences/new-chinese/F-NC-002/photo-card.webp",
+      "heroImage": "./assets/images/products/fences/new-chinese/F-NC-002/photo-hero.webp",
+      "caseImages": [
+        "assets/images/products/fences/new-chinese/F-NC-002/detail-01.webp",
+        "assets/images/products/fences/new-chinese/F-NC-002/detail-02.webp",
+        "assets/images/products/fences/new-chinese/F-NC-002/detail-03.webp",
+        "assets/images/products/fences/new-chinese/F-NC-002/detail-04.webp"
+      ],
+      "structureImage": "assets/images/products/fences/new-chinese/F-NC-002/structure-showcase.webp",
+      "structureAvailable": true,
+      "detailLabels": [
+        "顶部线条",
+        "装饰细节",
+        "立柱细节",
+        "底部连接"
+      ],
+      "photoSource": "围栏系列/轻奢艺术/23.jpg",
+      "structureSource": "photo-derived-white-background"
     }
   ]
 }

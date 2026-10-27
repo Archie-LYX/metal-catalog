@@ -1,0 +1,12 @@
+node_modules/
+dist/
+preview/
+.agents/
+.env
+.env.*
+大门/
+小门/
+推拉门/
+护栏系列/
+围栏系列/
+凉亭廊架/

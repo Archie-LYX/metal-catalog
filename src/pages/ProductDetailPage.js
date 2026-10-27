@@ -3,8 +3,10 @@ import { InfoTable } from '../components/InfoTable.js';
 const caseImageLabels = ['完工正面实景', '完工斜侧实景', '局部工艺细节', '庭院配套实景'];
 
 export function ProductDetailPage({ product, category }) {
+  const sectionTitle = product.detailLabels ? '细节展示' : '经典案例';
+  const imageLabels = product.detailLabels || caseImageLabels;
   return `
-    <article class="product-detail">
+    <article class="product-detail ${product.detailLabels ? 'product-detail-photograph' : ''}">
       <section class="product-hero">
         <img src="${product.heroImage}" alt="${product.name}" />
       </section>
@@ -16,20 +18,23 @@ export function ProductDetailPage({ product, category }) {
       </header>
 
       <section class="section-block">
-        <h2><span></span>经典案例</h2>
-        <div class="case-grid" aria-label="${category.title}经典案例">
+        <h2><span></span>${sectionTitle}</h2>
+        <div class="case-grid" aria-label="${category.title}${sectionTitle}">
           ${product.caseImages.map((image, index) => `
-            <img src="${image}" alt="${product.name}${caseImageLabels[index] || '案例实景'}" loading="lazy" />
+            <figure>
+              <img src="${image}" alt="${product.name}${imageLabels[index] || '产品实景'}" loading="lazy" />
+              ${product.detailLabels ? `<figcaption>${imageLabels[index]}</figcaption>` : ''}
+            </figure>
           `).join('')}
         </div>
       </section>
 
-      <section class="section-block">
+      ${product.structureImage ? `<section class="section-block">
         <h2><span></span>产品结构图</h2>
         <div class="structure-frame">
           <img class="structure-image" src="${product.structureImage}" alt="${product.name}结构图" loading="lazy" />
         </div>
-      </section>
+      </section>` : ''}
 
       <section class="section-block product-info">
         <h2><span></span>产品信息</h2>

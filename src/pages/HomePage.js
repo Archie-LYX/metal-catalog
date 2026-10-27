@@ -13,7 +13,7 @@ export function HomePage({ brand, categories }) {
         </div>
       </div>
       <div class="hero-cover">
-        <img class="hero-image" src="./assets/images/hero/home-hero.webp" alt="庭院金属产品画册主视觉" />
+        <img class="hero-image" src="${categories.find(category => category.id === 'gates')?.image || './assets/images/hero/home-hero.webp'}" alt="庭院金属产品画册主视觉" />
         <div class="hero-copy">
           <h2>${brand.slogan.replace(' · ', '<br />')}</h2>
           <p>${brand.subSlogan}</p>
