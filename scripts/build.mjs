@@ -13,6 +13,7 @@ for (const directory of ['src', 'assets']) {
 }
 
 cpSync(join(root, 'index.html'), join(dist, 'index.html'));
+cpSync(join(root, '8a72c30e25395a344f020ac268e5cf89.txt'), join(dist, '8a72c30e25395a344f020ac268e5cf89.txt'));
 cpSync(join(root, 'src'), join(dist, 'src'), { recursive: true });
 cpSync(join(root, 'assets'), join(dist, 'assets'), { recursive: true });
 
